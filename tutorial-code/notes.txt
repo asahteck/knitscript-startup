@@ -32,12 +32,12 @@
         Creating eyelets by decreasing to the right and increasing left back to stitch count
     3.3 Creating eyelets with strategic increases and decreases
 4. Combining tubes
-    Tubes
+    4.1 Tubes
         Explanation: creates a large tube, then only knits the right side to create a smaller tube connected.
         To create a tube on the left, the machine has to re-cast on
-    bi_tube
+    4.2 bi_tube
         Bifurcated tube
-    Tiny sweater
+    4.3 Tiny sweater
         A tiny sweater that fits BAB mini beans
         One large tube with two sleeves
 5. Short rows
