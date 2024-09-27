@@ -1,0 +1,52 @@
+1. Primitives
+    1.1 fiftysquare
+        A 50x50 square swatch
+        Introduction to most basic structure
+        New: cast_ons, stockinette, carrier, width and height
+    1.2 fiftytube
+        A 50x50 tube
+        New: cast_ons for back, loops, reverse direction, Front_Loops, Back_Loops
+    1.3 rib_tube
+        A 50x50 ribbed tube using the Sheets structure and xfers
+        New: Sheets, xfer
+    1.4 ribbed_tube
+        Another way of structuring the ribbed tube, using the knit all sheets loop
+    1.5 split_tube
+        3 layers in the round that form two joined tubes
+        New: using more than 2 sheets, functions, mixed stitches
+    1.6 Bindoff
+        Bindoff_tube
+        New: bind_offs to bind off a tube
+2. Increasing and Decreasing
+    2.1 inc_triangle
+        Creates an increasing triangle by casting on all loops first, and bringing one at a time to the front (not the way you should do it)
+        Correct way is to cast on 2, move to the right, tuck in between
+    2.2 dec_triangle
+        Creates a decreasing triangle by casting on all loops, then moving the last stitch to the left and knitting together
+    2.3 inc2dec_triangle
+        Creates an increasing triangle by casting on 2 loops, moving to the right, tucking on loops in between, then decreasing each row by moving stitches to the left.
+3. Eyelets
+    3.1 left_eyelets
+        Creating eyelets by decreasing to the left and increasing right back to stitch count
+    3.2 right_eyelets
+        Creating eyelets by decreasing to the right and increasing left back to stitch count
+    3.3 Creating eyelets with strategic increases and decreases
+4. Combining tubes
+    Tubes
+        Explanation: creates a large tube, then only knits the right side to create a smaller tube connected.
+        To create a tube on the left, the machine has to re-cast on
+    bi_tube
+        Bifurcated tube
+    Tiny sweater
+        A tiny sweater that fits BAB mini beans
+        One large tube with two sleeves
+5. Short rows
+    5.1 On a flat sheet
+    5.2 On a tube
+6. Socks
+    6.1 Heel
+        A bent tube that creates the heel with short rows
+    6.2 Ribbed tube to jersey tube
+        Transitioning from ribbed stitch type to jersey stitch type
+    6.3 Binding off the toe
+    6.4 Complete sock

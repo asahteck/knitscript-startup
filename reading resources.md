@@ -16,3 +16,8 @@ Read: https://textiles-lab.github.io/posts/2017/11/27/kout1/
 
 CSE 599 Knitting Course git
 https://github.com/mhofmann-uw/599-Knitting-Complete 
+
+MUST READ: Official KnitScript documentation
+https://github.com/mhofmann-Khoury/knit_script#readme
+https://dl.acm.org/doi/10.1145/3586183.3606789 
+

@@ -15,3 +15,5 @@ If you get error WARNING: Failed to write executable - trying to use .deleteme l
 Go into your python folder (such as Python312) > Properties > Security and give the Users group full access (see here)
 
 $ pip install knit-script
+
+Test your installation by running the installation_test.py file. You can work through this example using the installation_test.ipynb jupyter notebook. 

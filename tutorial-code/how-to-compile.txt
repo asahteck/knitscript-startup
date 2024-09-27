@@ -1,0 +1,28 @@
+How to run your .ks code:
+
+From command line (Unix)
+$knit-script -k <name for knitout to generate> -d <name for dat file to generate, optional> <name of knit_script file>
+
+From command line (Windows)
+$knit_script.bat -k <name for knitout to generate> -d <name for dat file to generate, optional> <name of knit_script file>
+
+Example: $ knit_script.bat -k stst_10.k -d stst_10.dat installation_test.ks
+
+Locally (preferred)
+1. Save your .ks file
+2. Create a .py file in the same folder as the .ks file
+
+This is the template I use:
+from knit_script.interpret import knit_script_to_knitout, knit_script_to_knitout_to_dat
+knit_graph, _machine_state = knit_script_to_knitout_to_dat("<name of knitscript file>", "program_for_dat.k", "<name for dat file to generate>", pattern_is_filename=True)
+
+This converts a .ks (KnitScript) to .k (Knitout) to .dat (file that KnitPaint, the knitting machine software, uses)
+
+optional: if you want to use the knitgraph visualizer (sometimes does not work for complex patterns, increases, decreases, etc. You can have a good functioning pattern that just won't render correctly as a knitgraph, don't worry.)
+from knit_script.knit_graph_viz import vizualize_sheet
+vizualize_sheet(knit_graph, "<file name>.png")
+
+3. This will generate .k and .dat files in the same folder as the .ks file. If something is wrong, you will likely get error.k and error.dat files. Don't panic, just debug and rerun.
+
+4. Use the dat viewer in browser to check that the pattern is about what you'd expect.
+5. Load .dat file onto flash drive, put into KnitPaint in the knitting room computer.
