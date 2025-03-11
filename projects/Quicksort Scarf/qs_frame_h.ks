@@ -1,3 +1,5 @@
+// testing horizontal frame structure for single frame
+
 import cast_ons;
 
 with Carrier as 2, width as 80, height as 80:{

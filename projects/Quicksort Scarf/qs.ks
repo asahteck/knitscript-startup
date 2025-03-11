@@ -1,3 +1,5 @@
+// Quicksort Method implemented in KnitScript file, by recursive calls
+
 def partition(array, start, end):{
     pivot = array[start];
     low = start + 1;

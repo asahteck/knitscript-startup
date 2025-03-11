@@ -1,3 +1,6 @@
+// Single random starting frame of Quicksort, done as knit/purl
+// testing frame structure (vertical)
+
 import cast_ons;
 
 with Carrier as 4, width as 40, height as 20:{

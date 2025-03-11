@@ -1,0 +1,11 @@
+Order of development
+
+qs_method.py - quicksort in python
+qs.ks - implementing quicksort in knitscript
+
+qs_frame.ks - implementing a frame around a bar chart representing quicksort, but it's vertical
+qs_frame_h.ks - frames are now horizontal
+
+qs_frame_def.ks - functions that we can call to generate a stream of horizontal frames
+
+qs_frame_h_color.ks - doing this in a colorwork style by calling functions to prep rows

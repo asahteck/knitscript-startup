@@ -1,3 +1,6 @@
+// Defines quicksort function and frame representation
+// horizontal frames
+
 import cast_ons;
 import numpy as np;
 import numpy.random;
