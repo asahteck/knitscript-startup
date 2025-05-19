@@ -5,6 +5,8 @@ download notes
 2. Install PyCharm https://www.jetbrains.com/community/education/#students/
 3. Install Node.js https://nodejs.org/en/download/
 
+make sure pip is installed and updated
+
 $ git clone https://github.com/mhofmann-Khoury/knit_script.git
 
 Navigate into knit_script folder
