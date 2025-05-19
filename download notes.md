@@ -9,6 +9,8 @@ $ git clone https://github.com/mhofmann-Khoury/knit_script.git
 
 Navigate into knit_script folder
 
+(NOTE: you may have to use pip3 in place of pip in the following commands)
+
 $ pip install -e . 
 
 If you get error WARNING: Failed to write executable - trying to use .deleteme logic
