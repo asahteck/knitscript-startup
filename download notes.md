@@ -1,7 +1,7 @@
 download notes
 
 0. Install GitHub https://desktop.github.com/download/
-1. Install Python https://www.python.org/downloads/
+1. Install Python 3.11 or 3.12 https://www.python.org/downloads/
 2. Install PyCharm https://www.jetbrains.com/community/education/#students/
 3. Install Node.js https://nodejs.org/en/download/
 
